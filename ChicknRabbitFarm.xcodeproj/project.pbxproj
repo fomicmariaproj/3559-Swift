@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05A98A38F3C8AF0031570567 /* Pods_ChicknRabbitFarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C828683DBAB9579D9BB92BAF /* Pods_ChicknRabbitFarm.framework */; };
+		72B625E82EB0C5FB00DF7102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72B625E52EB0C5FB00DF7102 /* Assets.xcassets */; };
+		72B625E92EB0C5FB00DF7102 /* ChicknRabbitFarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B625E62EB0C5FB00DF7102 /* ChicknRabbitFarmApp.swift */; };
+		72B625EF2EB0C60900DF7102 /* ShapeStyle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B625ED2EB0C60900DF7102 /* ShapeStyle+Extensions.swift */; };
+		72B625F02EB0C60900DF7102 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B625EC2EB0C60900DF7102 /* Color+Extensions.swift */; };
+		72B625F12EB0C60900DF7102 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B625EB2EB0C60900DF7102 /* View+Extensions.swift */; };
+		72B626042EB0C63000DF7102 /* CRLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B626012EB0C63000DF7102 /* CRLaunchView.swift */; };
+		72B626052EB0C63000DF7102 /* CRHomeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B625FF2EB0C63000DF7102 /* CRHomeWebView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53EF971B3544403389960BDA /* Pods-ChicknRabbitFarm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChicknRabbitFarm.release.xcconfig"; path = "Target Support Files/Pods-ChicknRabbitFarm/Pods-ChicknRabbitFarm.release.xcconfig"; sourceTree = "<group>"; };
+		72B625D62EB0C5C100DF7102 /* ChicknRabbitFarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChicknRabbitFarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72B625E52EB0C5FB00DF7102 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72B625E62EB0C5FB00DF7102 /* ChicknRabbitFarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChicknRabbitFarmApp.swift; sourceTree = "<group>"; };
+		72B625EB2EB0C60900DF7102 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		72B625EC2EB0C60900DF7102 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		72B625ED2EB0C60900DF7102 /* ShapeStyle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShapeStyle+Extensions.swift"; sourceTree = "<group>"; };
+		72B625FF2EB0C63000DF7102 /* CRHomeWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRHomeWebView.swift; sourceTree = "<group>"; };
+		72B626012EB0C63000DF7102 /* CRLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRLaunchView.swift; sourceTree = "<group>"; };
+		72B626062EB0C6C300DF7102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C828683DBAB9579D9BB92BAF /* Pods_ChicknRabbitFarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChicknRabbitFarm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EB1922901543A53D29C97E /* Pods-ChicknRabbitFarm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChicknRabbitFarm.debug.xcconfig"; path = "Target Support Files/Pods-ChicknRabbitFarm/Pods-ChicknRabbitFarm.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72B625D32EB0C5C100DF7102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05A98A38F3C8AF0031570567 /* Pods_ChicknRabbitFarm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13138C6324AFC912F4EA20F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4EB1922901543A53D29C97E /* Pods-ChicknRabbitFarm.debug.xcconfig */,
+				53EF971B3544403389960BDA /* Pods-ChicknRabbitFarm.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1D49CDDB12A631841BA23527 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C828683DBAB9579D9BB92BAF /* Pods_ChicknRabbitFarm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72B625CD2EB0C5C000DF7102 = {
+			isa = PBXGroup;
+			children = (
+				72B625E72EB0C5FB00DF7102 /* ChicknRabbitFarm */,
+				72B625D72EB0C5C100DF7102 /* Products */,
+				13138C6324AFC912F4EA20F8 /* Pods */,
+				1D49CDDB12A631841BA23527 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72B625D72EB0C5C100DF7102 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72B625D62EB0C5C100DF7102 /* ChicknRabbitFarm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72B625E72EB0C5FB00DF7102 /* ChicknRabbitFarm */ = {
+			isa = PBXGroup;
+			children = (
+				72B626062EB0C6C300DF7102 /* Info.plist */,
+				72B626032EB0C63000DF7102 /* Screens */,
+				72B625EE2EB0C60900DF7102 /* Extensions */,
+				72B625EA2EB0C5FE00DF7102 /* App */,
+				72B625E52EB0C5FB00DF7102 /* Assets.xcassets */,
+			);
+			path = ChicknRabbitFarm;
+			sourceTree = "<group>";
+		};
+		72B625EA2EB0C5FE00DF7102 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				72B625E62EB0C5FB00DF7102 /* ChicknRabbitFarmApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		72B625EE2EB0C60900DF7102 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				72B625EB2EB0C60900DF7102 /* View+Extensions.swift */,
+				72B625EC2EB0C60900DF7102 /* Color+Extensions.swift */,
+				72B625ED2EB0C60900DF7102 /* ShapeStyle+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		72B626002EB0C63000DF7102 /* HomeWebScreen */ = {
+			isa = PBXGroup;
+			children = (
+				72B625FF2EB0C63000DF7102 /* CRHomeWebView.swift */,
+			);
+			path = HomeWebScreen;
+			sourceTree = "<group>";
+		};
+		72B626022EB0C63000DF7102 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				72B626012EB0C63000DF7102 /* CRLaunchView.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		72B626032EB0C63000DF7102 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				72B626002EB0C63000DF7102 /* HomeWebScreen */,
+				72B626022EB0C63000DF7102 /* LaunchScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72B625D52EB0C5C100DF7102 /* ChicknRabbitFarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72B625E22EB0C5C200DF7102 /* Build configuration list for PBXNativeTarget "ChicknRabbitFarm" */;
+			buildPhases = (
+				8C1AC09D61E5676137D441FE /* [CP] Check Pods Manifest.lock */,
+				72B625D22EB0C5C100DF7102 /* Sources */,
+				72B625D32EB0C5C100DF7102 /* Frameworks */,
+				72B625D42EB0C5C100DF7102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChicknRabbitFarm;
+			productName = ChicknRabbitFarm;
+			productReference = 72B625D62EB0C5C100DF7102 /* ChicknRabbitFarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72B625CE2EB0C5C000DF7102 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					72B625D52EB0C5C100DF7102 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 72B625D12EB0C5C000DF7102 /* Build configuration list for PBXProject "ChicknRabbitFarm" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72B625CD2EB0C5C000DF7102;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 55;
+			productRefGroup = 72B625D72EB0C5C100DF7102 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72B625D52EB0C5C100DF7102 /* ChicknRabbitFarm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72B625D42EB0C5C100DF7102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B625E82EB0C5FB00DF7102 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C1AC09D61E5676137D441FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChicknRabbitFarm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72B625D22EB0C5C100DF7102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B625EF2EB0C60900DF7102 /* ShapeStyle+Extensions.swift in Sources */,
+				72B626042EB0C63000DF7102 /* CRLaunchView.swift in Sources */,
+				72B626052EB0C63000DF7102 /* CRHomeWebView.swift in Sources */,
+				72B625F02EB0C60900DF7102 /* Color+Extensions.swift in Sources */,
+				72B625F12EB0C60900DF7102 /* View+Extensions.swift in Sources */,
+				72B625E92EB0C5FB00DF7102 /* ChicknRabbitFarmApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		72B625E02EB0C5C200DF7102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72B625E12EB0C5C200DF7102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		72B625E32EB0C5C200DF7102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB1922901543A53D29C97E /* Pods-ChicknRabbitFarm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChicknRabbitFarm/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Chick'n Rabbit Farm";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.osmanproj.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Debug;
+		};
+		72B625E42EB0C5C200DF7102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53EF971B3544403389960BDA /* Pods-ChicknRabbitFarm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChicknRabbitFarm/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Chick'n Rabbit Farm";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.osmanproj.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72B625D12EB0C5C000DF7102 /* Build configuration list for PBXProject "ChicknRabbitFarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72B625E02EB0C5C200DF7102 /* Debug */,
+				72B625E12EB0C5C200DF7102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72B625E22EB0C5C200DF7102 /* Build configuration list for PBXNativeTarget "ChicknRabbitFarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72B625E32EB0C5C200DF7102 /* Debug */,
+				72B625E42EB0C5C200DF7102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72B625CE2EB0C5C000DF7102 /* Project object */;
+}
