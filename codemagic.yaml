@@ -4,16 +4,16 @@ workflows:
     max_build_duration: 120
     instance_type: mac_mini_m1
     integrations:
-      app_store_connect: discoegg
+      app_store_connect: cocoapi
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.cluckdiscocity.app
+        bundle_identifier: com.fomicproj.app
       vars:
-        BUNDLE_ID: "com.cluckdiscocity.app"
-        XCODE_WORKSPACE: "CluckDiscoCity.xcworkspace" # <-- Put the name of your Xcode workspace here
-        XCODE_SCHEME: "CluckDiscoCity" # <-- Put the name of your Xcode scheme here
-        APP_STORE_APPLE_ID: 6754379893
+        BUNDLE_ID: "com.fomicproj.app"
+        XCODE_WORKSPACE: "Coco Island.xcworkspace" # <-- Put the name of your Xcode workspace here
+        XCODE_SCHEME: "Coco Island" # <-- Put the name of your Xcode scheme here
+        APP_STORE_APPLE_ID: 6754566785
       xcode: latest
       cocoapods: default
     scripts:
