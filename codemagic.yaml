@@ -11,8 +11,8 @@ workflows:
         bundle_identifier: com.fomicproj.app
       vars:
         BUNDLE_ID: "com.fomicproj.app"
-        XCODE_WORKSPACE: "Coco Island.xcworkspace" # <-- Put the name of your Xcode workspace here
-        XCODE_SCHEME: "Coco Island" # <-- Put the name of your Xcode scheme here
+        XCODE_WORKSPACE: "CocoIsland.xcworkspace" # <-- Put the name of your Xcode workspace here
+        XCODE_SCHEME: "CocoIsland" # <-- Put the name of your Xcode scheme here
         APP_STORE_APPLE_ID: 6754566785
       xcode: latest
       cocoapods: default
